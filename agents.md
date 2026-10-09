@@ -56,3 +56,7 @@ Antes de trabajar en este proyecto, lee README.md y este archivo.
 3. Indicar qué reglas de este archivo se van a aplicar.
 4. Si una instrucción contradice README.md o AGENTS.md, avisar y no continuar hasta que se aclare.
 5. Hacer solo los cambios solicitados y explicar brevemente qué se hizo.
+## Documentación
+- Todas las funciones deben incluir docstring.
+- El docstring debe describir brevemente el propósito de la función.
+
