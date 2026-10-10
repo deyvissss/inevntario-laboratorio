@@ -11,15 +11,30 @@ Permitir el control, registro y seguimiento del estado y la ubicación de los eq
 - Personal técnico de soporte
 
 ## 4. Funcionalidades
-El programa muestra un menú con las siguientes opciones:
+El programa muestra un menú interactivo en consola con el siguiente diseño y flujo de opciones:
+
+```text
+=======================================
+   SISTEMA DE INVENTARIO DE LABORATÓRIO
+=======================================
 1. Registrar equipo
 2. Listar equipos
 3. Buscar equipo
 4. Modificar estado
 5. Eliminar equipo
 0. Salir
-
-> Estado actual: las funcionalidades se implementan de forma progresiva. Revisar el código antes de asumir que una función ya existe.
+=======================================
+Seleccione una opción: 
+```
+### Estado del Desarrollo (Progreso)
+Las funcionalidades se implementan de forma progresiva. El estado actual del repositorio es el siguiente:
+- [x] Estructura base de carpetas y archivos definida.
+- [x] Función `registrar_equipo()` implementada en `src/inventario.py`.
+- [x] Función `buscar_equipo()` implementada en `src/inventario.py`.
+- [ ] Implementación del menú principal interactivo en `app.py`.
+- [ ] Función `listar_equipos()` en `src/inventario.py`.
+- [ ] Función `modificar_estado()` en `src/inventario.py`.
+- [ ] Función `eliminar_equipo()` en `src/inventario.py`.
 
 ## 5. Información de los equipos
 Cada equipo contiene:
