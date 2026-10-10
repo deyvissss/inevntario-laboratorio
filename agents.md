@@ -40,7 +40,7 @@ Antes de trabajar en este proyecto, lee README.md y este archivo.
 ## 6. Restricciones
 - Usar solo la biblioteca estándar de Python (por ejemplo, `json` y `os`).
 - No instalar ni importar librerías externas.
-- No usar bases de datos (SQLite u otras); el almacenamiento es JSON.
+- Utilizar SQLite para almacenar los equipos.
 - No crear interfaz gráfica; la aplicación es de consola.
 
 ## 7. Modificación del código
