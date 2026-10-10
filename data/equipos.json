@@ -1,0 +1,23 @@
+[
+  {
+    "codigo": "2134",
+    "nombre": "server 1",
+    "tipo": "servidor",
+    "estado": "en mantenimiento",
+    "ubicacion": "zona A"
+  },
+  {
+    "codigo": "2021",
+    "nombre": "pc 1",
+    "tipo": "pc",
+    "estado": "en uso",
+    "ubicacion": "zona b"
+  },
+  {
+    "codigo": "2543",
+    "nombre": "pc 2",
+    "tipo": "pc",
+    "estado": "disponible",
+    "ubicacion": "zona c"
+  }
+]

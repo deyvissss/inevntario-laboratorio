@@ -26,15 +26,17 @@ El programa muestra un menú interactivo en consola con el siguiente diseño y f
 =======================================
 Seleccione una opción: 
 ```
-### Estado del Desarrollo (Progreso)
-Las funcionalidades se implementan de forma progresiva. El estado actual del repositorio es el siguiente:
+### Estado del Desarrollo
+La base del proyecto ya está implementada y funcionando en consola. El estado actual del repositorio es el siguiente:
 - [x] Estructura base de carpetas y archivos definida.
 - [x] Función `registrar_equipo()` implementada en `src/inventario.py`.
+- [x] Función `listar_equipos()` implementada en `src/inventario.py`.
 - [x] Función `buscar_equipo()` implementada en `src/inventario.py`.
-- [ ] Implementación del menú principal interactivo en `app.py`.
-- [ ] Función `listar_equipos()` en `src/inventario.py`.
-- [ ] Función `modificar_estado()` en `src/inventario.py`.
-- [ ] Función `eliminar_equipo()` en `src/inventario.py`.
+- [x] Función `modificar_estado()` implementada en `src/inventario.py`.
+- [x] Función `eliminar_equipo()` implementada en `src/inventario.py`.
+- [x] Menú principal interactivo implementado en `app.py`.
+- [x] Módulo de mantenimiento implementado en `src/mantenimiento.py`.
+- [x] Evidencia de validación registrada en `evidencias/validacion.md`.
 
 ## 5. Información de los equipos
 Cada equipo contiene:
@@ -53,15 +55,19 @@ Cada equipo contiene:
 ```
 inventario-laboratorio/
 │
-├── README.md          # Qué hace el proyecto
-├── AGENTS.md          # Reglas para agentes de IA
-├── app.py             # Punto de entrada y menú principal
+├── README.md              # Qué hace el proyecto
+├── AGENTS.md              # Reglas para agentes de IA
+├── app.py                 # Punto de entrada y menú principal
 │
 ├── src/
-│   └── inventario.py  # Lógica de gestión de equipos
+│   ├── inventario.py      # Lógica de gestión del inventario
+│   └── mantenimiento.py   # Gestión de equipos en mantenimiento
 │
-└── data/
-    └── equipos.json   # Datos almacenados de los equipos
+├── data/
+│   └── equipos.json       # Datos almacenados de los equipos
+│
+└── evidencias/
+    └── validacion.md      # Evidencia de validación del proyecto
 ```
 
 ## 8. Ejecución
@@ -75,3 +81,6 @@ python app.py
 
 ## 9. Reglas para agentes de IA
 Las convenciones y restricciones del proyecto están definidas en [AGENTS.md](AGENTS.md).
+
+## 10. Validación actual
+El proyecto cuenta con una validación documentada en [evidencias/validacion.md](evidencias/validacion.md). La evidencia recoge el estado funcional de las operaciones del inventario y la gestión de mantenimiento conforme a las reglas del repositorio.
